@@ -1,0 +1,467 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  outline: 0;
+  border: 0;
+  color: white;
+}
+
+nav {
+  background-color: #09a4a9;
+  padding: 20px;
+}
+
+nav .nav-bar {
+  width: fit-content;
+  margin-left: auto;
+}
+
+nav .nav-bar li {
+  display: inline;
+  margin: 20px;
+}
+
+nav .nav-bar li a {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* Home */
+
+.home {
+  background-image: linear-gradient(#1e90ff, #00ecd1, #4ccccd);
+  height: 100vh;
+  position: relative;
+  padding: 70px;
+}
+
+.home .foto {
+  width: 15%;
+  margin: auto;
+}
+
+.home .foto :hover {
+  animation: foto 1s ease alternate infinite;
+}
+
+@keyframes foto {
+  from {
+    transform: translate(0);
+  }
+  to {
+    transform: translate(0, 30px);
+  }
+}
+
+.home .foto img {
+  width: 100%;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.home .home-isi {
+  width: fit-content;
+  margin: auto;
+  padding: 40px;
+}
+
+.home .home-isi :hover {
+  animation: font 1s ease alternate infinite;
+}
+
+@keyframes font {
+  from {
+    color: black;
+  }
+  to {
+    color: white;
+  }
+}
+
+.home .home-isi h3 {
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  text-shadow: white;
+}
+
+.home .home-isi h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 5px 5px#09a4a9;
+}
+
+/* About */
+
+.about {
+  background-color: #4ccccd;
+  height: 280vh;
+}
+
+.about .about-isi {
+  width: fit-content;
+}
+
+.about .about-isi h3 {
+  font-size: 50px;
+  padding: 0px 80px;
+  text-decoration: underline #7c0a02;
+  padding-top: 30px;
+}
+
+.about .about-isi h3 span {
+  color: #7c0a02;
+}
+
+.about .about-isi .descriprion {
+  width: 70%;
+  margin: auto;
+  padding: 140px 0px;
+}
+
+.about .about-isi .descriprion p {
+  font-size: 30px;
+  padding: 10px 25px;
+  margin: auto;
+}
+
+.about .about-isi .descriprion img {
+  width: 20%;
+  margin: 0% 45%;
+}
+
+/* Education */
+
+.about .about-isi .edu {
+  width: fit-content;
+  margin: auto;
+}
+
+.about .about-isi .edu .eb {
+  margin: auto;
+  width: fit-content;
+  padding-bottom: 70px;
+}
+
+.about .about-isi .edu .eb h4 {
+  font-size: 30px;
+  text-decoration: underline;
+  color: #7c0a02;
+}
+
+.about .about-isi .edu table {
+  border-collapse: collapse;
+  font-size: 20px;
+  border: 1px solid black;
+  margin: auto;
+}
+.about .about-isi .edu table tr th {
+  padding: 15px 25px;
+  background-color: green;
+  border: 1px solid black;
+}
+
+.about .about-isi .edu table tr td {
+  padding: 20px 35px;
+  background-color: #09a4a9;
+  border: 1px solid black;
+}
+
+/* skill */
+
+.about .about-isi .skill-judul {
+  width: fit-content;
+  margin: auto;
+  padding: 150px 0px 80px 0px;
+}
+
+.about .about-isi .skill-judul h4 {
+  font-size: 30px;
+  text-decoration: underline;
+  color: #7c0a02;
+}
+
+.about .about-isi .skill {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin: 0px 50px 0px 160px;
+}
+
+.about .about-isi .skill:hover {
+  animation: skill 1s ease alternate infinite;
+}
+
+@keyframes skill {
+  from {
+    transform: translate(0);
+  }
+  to {
+    transform: translate(0, -30px);
+  }
+}
+.about .about-isi .skill .skill-isi {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 50%;
+}
+
+.about .about-isi .skill .skill-isi img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.clear {
+  clear: left;
+}
+
+/* Portofolio */
+
+.portofolio {
+  background-color: #4ccccd;
+  height: 280vh;
+}
+
+.portofolio .portofolio-isi {
+  width: fit-content;
+}
+
+.portofolio .portofolio-isi h3 {
+  font-size: 50px;
+  padding: 0px 80px;
+  text-decoration: underline #7c0a02;
+  padding-top: 30px;
+}
+
+.portofolio .portofolio-isi h3 span {
+  color: #7c0a02;
+}
+
+.portofolio .portofolio-isi .isi {
+  width: 800px;
+  height: fit-content;
+  margin: 70px 250px 120px;
+}
+
+.portofolio .portofolio-isi .isi .isi-isi {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 50%;
+  box-shadow: 0px 0px 4px 4px #544c4a;
+}
+
+.portofolio .portofolio-isi .isi .isi-isi img {
+  width: 100%;
+}
+
+.clear {
+  clear: left;
+}
+
+/* Contact */
+
+.contact {
+  background-image: linear-gradient(#afeeee, #4ccccd, #09a4a9, #4682b4, #00f);
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+.contact form {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+}
+
+.contact h3 {
+  width: fit-content;
+  text-decoration: underline #7c0a02;
+  font-size: 50px;
+  padding: 0px 80px;
+  padding-top: 30px;
+}
+
+.contact h3 span {
+  color: #7c0a02;
+}
+
+.contact .labelS {
+  display: block;
+  padding-top: 30px;
+}
+
+.contact input {
+  background-color: transparent;
+  border: none;
+  border: 1px solid white;
+  border-radius: 20px;
+  width: 100%;
+  outline: none;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.contact textarea {
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid white;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.contact button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #7c0a02;
+  border-radius: 5px;
+  display: block;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .home .foto {
+    width: 40%;
+    padding-top: 100px;
+  }
+
+  .home .home-isi h3 {
+    font-size: 35px;
+  }
+
+  .home .home-isi h1 {
+    font-size: 50px;
+  }
+
+  .about {
+    height: 230vh;
+  }
+
+  .about .about-isi .descriprion img {
+    width: 40%;
+    margin: 0% 35%;
+  }
+
+  .about .about-isi .descriprion p {
+    font-size: 30px;
+    padding: 25px 0px;
+  }
+
+  .about .about-isi .edu table {
+    font-size: 11px;
+  }
+
+  .about .about-isi .skill {
+    margin: 0px 50px 30px 300px;
+  }
+
+  .portofolio {
+    height: 100vh;
+  }
+
+  .portofolio .portofolio-isi .isi {
+    width: 400px;
+    margin: 70px 180px 70px;
+  }
+  .contact form {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  nav .nav-bar li {
+    margin: 15px;
+  }
+
+  nav .nav-bar li a {
+    font-size: 15px;
+  }
+
+  .home .foto {
+    width: 60%;
+    padding-top: 100px;
+  }
+
+  .home .home-isi h3 {
+    font-size: 25px;
+  }
+
+  .home {
+    padding: 40px;
+  }
+  .about {
+    height: 200vh;
+  }
+
+  .about .about-isi .descriprion img {
+    width: 50%;
+    margin: 0% 25%;
+  }
+
+  .about .about-isi h3 {
+    font-size: 40px;
+  }
+
+  .about .about-isi .descriprion p {
+    font-size: 20px;
+  }
+
+  .about .about-isi .edu .eb h4 {
+    font-size: 20px;
+  }
+
+  .about .about-isi .edu table {
+    font-size: 8px;
+    margin-right: 15px;
+  }
+
+  .about .about-isi .edu table tr th {
+    padding: 5px 3px;
+  }
+
+  .about .about-isi .edu table tr td {
+    padding: 5px 3px;
+  }
+
+  .about .about-isi .skill-judul h4 {
+    font-size: 20px;
+  }
+
+  .about .about-isi .skill {
+    width: 100px;
+    height: 100px;
+    margin: 0px 50px 30px 140px;
+  }
+  .portofolio .portofolio-isi h3 {
+    font-size: 40px;
+  }
+
+  .portofolio .portofolio-isi {
+    width: 100%;
+  }
+
+  .portofolio .portofolio-isi .isi {
+    width: 280px;
+    margin: 70px 40px 70px;
+    background-color: green;
+  }
+
+  .portofolio .portofolio-isi .isi .isi-isi {
+    margin-bottom: 20px;
+  }
+
+  .contact form {
+    width: 90%;
+  }
+
+  .contact {
+    padding: 20px;
+  }
+
+  .contact h3 {
+    font-size: 30px;
+  }
+}
